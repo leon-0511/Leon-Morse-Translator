@@ -3,3 +3,4 @@ old/*
 debug/*
 *.bat
 *.exe
+build/
