@@ -30,3 +30,9 @@ void BuildMorseMap(std::map<std::string, char>& MorseMap) {
     }
 }
 
+void PrintMap(std::map<std::string, char> map) {
+    for(const auto& pair : map) {
+        std::cout << "Morse: "<< pair.first << "\tChar: " << pair.second << '\n';
+    }
+}
+
